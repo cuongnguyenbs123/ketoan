@@ -1,0 +1,28 @@
+.danger-input{
+    position: relative;
+}
+
+.danger-input p{
+  width: 200px;
+  height: 50px;
+  background-color: #FF4747;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 1;
+  position: absolute;
+  left: 100px;
+  bottom: 25px;
+}
+.danger-input .arrow{
+    width: 12px;
+    height: 12px;
+    background-color:#FF4747;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 190px;
+    bottom:35px;
+    z-index: 0;
+}

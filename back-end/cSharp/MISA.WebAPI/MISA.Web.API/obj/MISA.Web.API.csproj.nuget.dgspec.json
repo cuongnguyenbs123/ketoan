@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Workspace\\MISA-JSC\\WEB2022_01\\mf1073-cuongnd\\back-end\\cSharp\\MISA.WebAPI\\MISA.Web.API\\MISA.Web.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Workspace\\MISA-JSC\\WEB2022_01\\mf1073-cuongnd\\back-end\\cSharp\\MISA.WebAPI\\MISA.Web.API\\MISA.Web.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\MISA-JSC\\WEB2022_01\\mf1073-cuongnd\\back-end\\cSharp\\MISA.WebAPI\\MISA.Web.API\\MISA.Web.API.csproj",
+        "projectName": "MISA.Web.API",
+        "projectPath": "D:\\Workspace\\MISA-JSC\\WEB2022_01\\mf1073-cuongnd\\back-end\\cSharp\\MISA.WebAPI\\MISA.Web.API\\MISA.Web.API.csproj",
+        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\MISA-JSC\\WEB2022_01\\mf1073-cuongnd\\back-end\\cSharp\\MISA.WebAPI\\MISA.Web.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "MySQLConnection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

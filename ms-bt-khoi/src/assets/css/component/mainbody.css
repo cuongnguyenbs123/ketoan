@@ -1,0 +1,43 @@
+/* import css của button và input */
+/* @import url('../component/button.css');
+@import url('../component/input.css'); */
+/* CSS main page */
+/*Phần box bao quanh*/
+.m-main-body {
+    background-color: #f4f5f8;
+    height: calc(100vh - 48px);
+    box-sizing: border-box;
+}
+
+.m-main-body .m-main-body-line-1 {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+}
+.m-main-body-line-1 h2 {
+    margin: 0px;
+}
+.m-main-body .m-main-body-border-box {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(100% - 70px);
+}
+.m-main-body-border-box .m-main-body-box {
+    width: 97%;
+    height: 98%;
+    margin-left: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.m-main-body-box .m-main-body-box-line-1 {
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    align-items: center;
+}
+.m-main-body-box-line-1 .form-group-input {
+    position: relative;
+}
+

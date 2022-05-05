@@ -1,0 +1,15 @@
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\bin\Debug\net6.0\MISA.DemoCSharp.exe
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\bin\Debug\net6.0\MISA.DemoCSharp.deps.json
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\bin\Debug\net6.0\MISA.DemoCSharp.runtimeconfig.json
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\bin\Debug\net6.0\MISA.DemoCSharp.dll
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\bin\Debug\net6.0\ref\MISA.DemoCSharp.dll
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\bin\Debug\net6.0\MISA.DemoCSharp.pdb
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\obj\Debug\net6.0\MISA.DemoCSharp.csproj.AssemblyReference.cache
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\obj\Debug\net6.0\MISA.DemoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\obj\Debug\net6.0\MISA.DemoCSharp.AssemblyInfoInputs.cache
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\obj\Debug\net6.0\MISA.DemoCSharp.AssemblyInfo.cs
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\obj\Debug\net6.0\MISA.DemoCSharp.csproj.CoreCompileInputs.cache
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\obj\Debug\net6.0\MISA.DemoCSharp.dll
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\obj\Debug\net6.0\ref\MISA.DemoCSharp.dll
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\obj\Debug\net6.0\MISA.DemoCSharp.pdb
+D:\Workspace\MISA-JSC\WEB2022_01\mf1073-cuongnd\back-end\cSharp\MISA.DemoCSharp\MISA.DemoCSharp\obj\Debug\net6.0\MISA.DemoCSharp.genruntimeconfig.cache

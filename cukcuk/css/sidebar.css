@@ -1,0 +1,128 @@
+
+.sidebar{
+    width: 226px;
+    height: 100vh;
+    border-right: 2px solid #1d1c1c75;
+    font-size: 13px;
+    font-family: GoogleSans;
+    flex-shrink: 0;
+}
+.sidebar-top{
+    display: flex;
+    height: 48px;
+    padding-bottom: 10px;
+}
+.sidebar-top_left{
+    width: 50px;
+    height: 48px;
+   
+}
+.sidebar-top_left-icon{
+    background-image: url('../Resource/img/toggle.png');
+    background-size: 24px 24px;
+    background-position: 16px center;
+    background-repeat: no-repeat;
+}
+.sidebar-top_right{
+    width: 100%;
+}
+.sidebar-top_right-icon{
+    background-image: url('../Resource/img/cukcuk-logo.png');
+    background-size: calc(100% - 50px) 24px;
+    background-repeat: no-repeat;
+    background-position:10px center;  
+}
+.review{
+    display: flex;
+}
+.review-left{
+    height: 20px;
+    width: 20px;
+    padding:12px 16px;
+    background-image: url('../Resource/icon/dashboard.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 16px center;
+}
+.review-right{
+    width: 100%;
+    padding:12px 0px;
+}
+.report{
+    display: flex;
+}
+.report-left{
+    width: 52px;
+    height: 44px;
+    padding:12px 16px;
+    background-image: url('../Resource/icon/report.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 16px center;
+    box-sizing: border-box;
+}
+.report-right{
+    width: 100%;
+    padding:12px 0px;
+}
+.by{
+    display: flex;
+}
+.by-left{
+    width: 52px;
+    height: 44px;
+    padding:12px 16px;
+    background-image: url('../Resource/icon/dashboard.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 16px center;
+    box-sizing: border-box;
+}
+.by-right{
+    width: 100%;
+    padding:12px 0px;
+}
+.emp-catgory{
+    display: flex;
+}
+.emp-catgory-left{
+    width: 52px;
+    height: 44px;
+    padding:12px 16px;
+    background-image: url('../Resource/icon/dic-employee.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 16px center;
+    box-sizing: border-box;
+}
+.emp-catgory-right{
+    width: 100%;
+    padding:12px 0px;
+}
+.setting{
+    display: flex;
+}
+.setting-left{
+    width: 52px;
+    height: 44px;
+    padding:12px 16px;
+    background-image: url('../Resource/icon/setting.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 16px center;
+    box-sizing: border-box;
+}
+.setting-right{
+    width: 100%;
+    padding:12px 0px;
+}
+.settinig:focus-within{
+    background-color: #019160;
+}
+.sidebar-page:hover{
+    background-color: #e5e5e5;
+}
+.sidebar-page:focus{
+    background-color: #019160;
+}
+

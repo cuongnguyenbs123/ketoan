@@ -1,0 +1,56 @@
+@font-face {
+   font-family: GoogleSansBold;
+   src: url(../Resource/font/GoogleSans-Bold.otf);
+ }
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: #ffff;
+    border-bottom: 2px solid #1d1c1c75;
+    display: flex;
+    justify-content: space-between;
+    font-family: GoogleSans;
+    font-size: 13px;
+}
+.header-left{
+   width:200px;
+   height:100%;
+   align-items: center;
+}
+.header-left select{
+   border: none;
+   padding: 12px 10px 12px 16px;
+   font-weight: bold;
+   box-sizing: border-box;
+}
+.header-right{
+   width: 300px;
+   height: 100%;
+   box-sizing: border-box;
+   display: flex;
+   padding-left: 100px;
+   margin-bottom: 10px;
+}
+.header-right-icon{
+   background-image: url('../Resource/icon/avatar-default.png');
+   width: 25px;
+   height: 25px;
+   margin-top: 10px;
+   background-size: 25px 25px ;
+   background-repeat: no-repeat;
+   padding-right: 16px;
+}
+.header-right-content{
+  
+   margin-top: 12px;
+   padding-right: 16px;
+}
+.header-right-menu{
+   width: 15px;
+   height: 15px;
+   background-image: url('../Resource/icon/option.png');
+   background-repeat: no-repeat;
+   background-size: 15px 15px;
+   margin-top: 12px;
+   padding-right: 16px;
+}

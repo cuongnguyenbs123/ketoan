@@ -1,0 +1,106 @@
+/* CSS các icon của sidebar menu */
+.review-icon{
+     background-image: var(--bg-img);
+    background-position-x: -10px;
+    background-position-y: -1620px;
+}
+.moneybag-icon{
+     background-image: var(--bg-img);
+    background-position-x: -55px;
+    background-position-y: -1620px;
+}
+.bank-icon{
+     background-image: var(--bg-img);
+    background-position-x: -100px;
+    background-position-y: -1620px;
+}
+.hand-bag-icon{
+     background-image: var(--bg-img);
+    background-position-x: -145px;
+    background-position-y: -1620px;
+}
+.cart-icon{
+     background-image: var(--bg-img);
+    background-position-x: -189px;
+    background-position-y: -1620px;
+}
+.bill-icon{
+     background-image: var(--bg-img);
+    background-position-x: -232px;
+    background-position-y: -1620px;
+}
+.store-icon{
+     background-image: var(--bg-img);
+    background-position-x: -274px;
+    background-position-y: -1620px;
+}
+.setting-icon{
+     background-image: var(--bg-img);
+    background-position-x: -320px;
+    background-position-y: -1620px;
+}
+.possessions-icon{
+     background-image: var(--bg-img);
+    background-position-x: -365px;
+    background-position-y: -1620px;
+}
+.tax-icon{
+     background-image: var(--bg-img);
+    background-position-x: -410px;
+    background-position-y: -1620px;
+}
+.price-icon{
+     background-image: var(--bg-img);
+    background-position-x: -455px;
+    background-position-y: -1620px;
+}
+.sumary-icon{
+     background-image: var(--bg-img);
+    background-position-x: -498px;
+    background-position-y: -1620px;
+}
+.fund-icon{
+     background-image: var(--bg-img);
+    background-position-x: -535px;
+    background-position-y: -1620px;
+}
+.report-icon{
+     background-image: var(--bg-img);
+    background-position-x: -579px;
+    background-position-y: -1620px;
+}
+.finacial-analysis-icon{
+    background-image: var(--bg-img);
+    background-position-x: -622px;
+    background-position-y: -1620px;
+}
+/* position -976 -342 width,height:50px */
+.alert-icon{
+    background-color: #ffffff;   
+    background-image: var(--bg-img);
+    background-position-x: 1344px;
+    background-position-y: -456px;
+}
+.success-icon{
+    background-color: #ffffff;   
+    background-image: var(--bg-img);
+    background-position-x: 1032px;
+    background-position-y: -456px;
+}
+.delete-icon{
+    background-color: #ffffff;   
+    background-image: var(--bg-img);
+    background-position-x: 1271px;
+    background-position-y: -456px;
+}
+.warning-icon{
+    background-color: #ffffff;   
+    background-image: var(--bg-img);
+    background-position-x: 1428px;
+    background-position-y: -455px;
+}
+.refresh-icon-hover{
+    background-color: #ffffff;   
+    background-image: var(--bg-img);
+    background-position: -1095px -88px;
+}

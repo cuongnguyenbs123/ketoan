@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../cukcuk/css/main.css" />
+        <link rel="stylesheet" href="../cukcuk/css/header.css" />
+        <link rel="stylesheet" href="../cukcuk/css/sidebar.css" />
+        <link rel="stylesheet" href="../cukcuk/css/page.css" />
+        <link rel="stylesheet" href="../cukcuk/css/employee.css" />
+        <title>CokCok</title>
+    </head>
+    <!-- -----------------------------------------------------------Main--form --------------------------------------------------------->
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div class="sidebar-top">
+                    <div class="sidebar-top_left sidebar-top_left-icon"></div>
+                    <div class="sidebar-top_right sidebar-top_right-icon"></div>
+                </div>
+                <div class="sidebar-bottom">
+                    <div class="review sidebar-page">
+                        <div class="review-left"></div>
+                        <div class="review-right">Tổng quan</div>
+                    </div>
+                    <div class="report sidebar-page">
+                        <div class="report-left"></div>
+                        <div class="report-right">Báo cáo</div>
+                    </div>
+                    <div class="by sidebar-page">
+                        <div class="by-left"></div>
+                        <div class="by-right">Mua hàng</div>
+                    </div>
+                    <div class="emp-catgory sidebar-page">
+                        <div class="emp-catgory-left"></div>
+                        <div class="emp-catgory-right">Danh mục nhân viên</div>
+                    </div>
+                    <div class="setting sidebar-page">
+                        <div class="setting-left"></div>
+                        <div class="setting-right">Thiết lập hệ thống</div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="header">
+                    <div class="header-left">
+                        <select id="header-select">
+                            <option value="1">Nhà hàng Biển Đông</option>
+                        </select>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-right-icon"></div>
+                        <div class="header-right-content">Nguyễn Đại Cương</div>
+                        <div class="header-right-menu"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content-header">
+                        <div class="content-header_line1">
+                            <h3>Danh sách nhân viên</h3>
+                            <button class="btn-add btn-add-icon">
+                                Thêm nhân viên
+                            </button>
+                        </div>
+                        <div class="content-header_line2">
+                            <input
+                                class="seach-bar icon-seach"
+                                type="seach"
+                                placeholder="Tìm kiếm theo Mã, Tên hoặc Số điện thoại "
+                            />
+                            <select id="select-deptno">
+                                <option value="1">Tất cả phòng ban</option>
+                                <option value="2">Phòng ban 1</option>
+                            </select>
+                            <select id="select-position">
+                                <option value="1">Tất cả vị trí</option>
+                            </select>
+                            <button id="btn-delete">Xóa </button>
+                            <button id="btn-refresh">
+                                <i
+                                    ><img
+                                        src="../cukcuk/Resource/icon/refresh.png"
+                                        alt=""
+                                /></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="content-table">
+                        <table id="table-nv">
+                            <thead class="table-nv-title">
+                                <tr>
+                                    <th>Mã nhân viên</th>
+                                    <th>Họ tên</th>
+                                    <th>Giới tính</th>
+                                    <th>Ngày sinh</th>
+                                    <th>Điện thoại</th>
+                                    <th>Email</th>
+                                    <th>Chức vụ</th>
+                                    <th>Phòng ban</th>
+                                    <th>Mức lương cơ bản</th>
+                                    <th>Tình trạng công việc</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-nv-body">
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="footer">
+                        <div class="left-footer">
+                            Hiển thị 1-10/1000 nhân viên
+                        </div>
+                        <div class="pagination">
+                            <button id="icon-back-n"></button>
+                            <button id="icon-back-1"></button>
+                            <button id="page">1</button>
+                            <button id="page">2</button>
+                            <button id="page">3</button>
+                            <button id="page">4</button>
+                            <button id="icon-next-1"></button>
+                            <button id="icon-next-n"></button>
+                        </div>
+                        <div class="right-footer">
+                            <div class="toast-messege">
+                
+                            </div>
+                            10 nhân viên /trang 
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------------------------ Employee form ------------------------------------------------------------>
+        <div class="dialog-modal">
+        </div>
+        <div class="employee-form">
+            <div class="employee-form-header">
+                <h2>Thông tin nhân viên</h2>
+            </div>
+                <div class="common-infor">
+                    <div class="avatar">
+                        <img src="../cukcuk/Resource/img/default-avatar.jpg" alt="" />
+                        <div class="note">
+                            (Vui lòng chọn ảnh có định dạng .jpg, .jpeg, .png,
+                            .gif.)
+                        </div>
+                    </div>
+
+                    <div class="infor-form">
+                        <p id="common-infor-title">A. Thông tin chung:</p>
+                        <div class="line"></div>
+                        <div class="get-infor">
+                            <div class="employee-code">
+                                <label>Mã nhân viên (<i>* </i>)</label> <br />
+                                <input
+                                    type="text"
+                                    name="employee-code"
+                                    class="required"
+                                />
+                            </div>
+                            <div class="name">
+                                <label>Họ và tên(<i>* </i>) </label> <br />
+                                <input
+                                    type="text"
+                                    name="name"
+                                    class="required"
+                                />
+                            </div>
+                            <div class="date-of-birth">
+                                <label>Ngày sinh </label> <br />
+                                <input
+                                    type="datetime-local"
+                                    name="date_of_birth"
+                                />
+                            </div>
+                            <div class="sex">
+                                <label>Giới tính </label> <br />
+                                <select name="sex" id="sex">
+                                    <option value="1">Nam</option>
+                                    <option value="2">Nữ</option>
+                                </select>
+                            </div>
+                            <div class="id">
+                                <label>Số cmnd/ Căn cước (<i>* </i>) </label>
+                                <br />
+                                <input
+                                    type="number"
+                                    name="id"
+                                    class="required"
+                                />
+                            </div>
+                            <div class="valid-date">
+                                <label>Ngày cấp </label> <br />
+                                <input
+                                    type="datetime-local"
+                                    name="valid-date"
+                                />
+                            </div>
+                            <div class="place">
+                                <label>Nơi cấp </label> <br />
+                                <input type="text" name="place" />
+                            </div>
+                            <div class="hidden"></div>
+                            <div class="email">
+                                <label>Email (<i>* </i>)</label> <br />
+                                <input
+                                    type="text"
+                                    name="email"
+                                    class="required"
+                                />
+                            </div>
+                            <div class="phonenum">
+                                <label>Số điện thoại (<i>* </i>) </label> <br />
+                                <input
+                                    type="number"
+                                    name="phonenum"
+                                    class="required"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-infor">
+                    <p id="job-infor-title">B.Thông tin công việc:</p>
+                    <div class="line"></div>
+                    <div class="get-infor">
+                        <div class="position">
+                            <label>Chức vụ (<i>* </i>)</label> <br />
+                            <select name="positon" id="position">
+                                <option value="1">Giám đốc</option>
+                                <option value="2">Nhân viên</option>
+                            </select>
+                        </div>
+                        <div class="deptno">
+                            <label>Phòng ban </label> <br />
+                            <select name="deptno" id="deptno">
+                                <option value="1">Phòng nhân sự</option>
+                                <option value="2">Phòng IT</option>
+                            </select>
+                        </div>
+                        <div class="tax">
+                            <label>Mã số thuế cá nhân </label> <br />
+                            <input type="number" name="tax" />
+                        </div>
+                        <div class="hire-rate">
+                            <label>Mức lương cơ bản </label> <br />
+                            <input type="number" name="hire-rate" />
+                        </div>
+                        <div class="join-date">
+                            <label>Ngày tham gia </label> <br />
+                            <input type="datetime" name="join-date" />
+                        </div>
+                        <div class="status">
+                            <label>Tình trạng công việc </label> <br />
+                            <select name="status" id="deptno">
+                                <option value="1">Đang làm việc</option>
+                                <option value="2">Đã nghỉ việc</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="emp-footer">
+                    <button id="btn-cancel">Hủy</button>
+                    <button id="btn-save">Lưu</button>
+                </div>
+            </div>
+            <div class="loading">
+                <div class="loading-icon"></div>
+            </div>
+            <div class="loading dlg">
+                <div id="dlg-asking" title="Thông báo">
+                    
+                </div>
+            </div>
+        <script src="../cukcuk/js/jquery-3.6.0.min.js"></script>
+        <script src="../cukcuk/js/mainjs.js"></script>
+        <script src="../cukcuk/js/deptno.js"></script>
+        <script src="../cukcuk/js/show_hide_element.js"></script>
+        <script src="../cukcuk/js/validate.js"></script>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+@import url('../main.css');
+#m-ckb-isClient{
+    width: 20px;
+    height: 20px;
+}
+#m-ckbid-isProvider{
+    width: 20px;
+    height: 20px;
+}
+#m-ckb-male{
+    width: 20px;
+    height: 20px;
+}  
+.m-checkbox-container{
+  position: relative;
+  cursor: pointer;
+}
+/* Hide the browser's default checkbox */
+.m-checkbox-container input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.m-checkbox-container .checkmark {
+  position: absolute;
+  top: -11px;
+  left: -11px;
+  height: 18px;
+  width: 18px;
+  border-radius: 2px;
+  background-color: #ffff;
+  box-sizing: border-box;
+  border:1px solid #d7d8da;
+}
+/* On mouse-over, add a grey background color */
+/* .m-table-td:hover input ~ .checkmark {
+  background-color: #ccc;
+} */
+
+/* When the checkbox is checked, add a blue background */
+.m-checkbox-container input:checked ~ .checkmark {
+  background-color: #ffff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.m-checkbox-container:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.m-checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.m-checkbox-container .checkmark:after {
+  left: 5px;
+  top: 0px;
+  width: 4px;
+  height: 9px;
+  
+  border: solid #158628;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+#m-ckb-female{
+    width: 20px;
+    height: 20px;
+}
+#m-ckb-anotherGender{
+    width: 20px;
+    height: 20px;
+}

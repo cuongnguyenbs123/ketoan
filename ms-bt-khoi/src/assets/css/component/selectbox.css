@@ -1,0 +1,58 @@
+.m-select-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    min-width: 70px;
+}
+
+.m-page-header .m-select-box {
+    border: none;
+}
+.m-footer .m-select-box {
+    height: 30px;
+    border: 1px solid #b3b3b3;
+    width: 200px;
+    position: relative;
+
+}
+.m-footer .m-select-box:hover {
+    border: 1px solid #158628;
+    outline: none;
+}
+
+.m-footer .m-options {
+    position: absolute;
+    bottom: 32px;
+    z-index: 1;
+    background-color: #ffff;
+    border: 1px solid #b3b3b3;
+    box-sizing: border-box;
+    width: 100%;
+}
+.m-select-box .selected {
+    padding: 5px;
+    border: 1px solid #0000;
+}
+.m-option {
+    padding: 10px;
+}
+.m-option:hover {
+    background-color: #2ca01c;
+    color: #ffff;
+}
+.m-select-box .m-select-box-content {
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+#m-dlg-function {
+    width: 120px;
+    height: 100px;
+    position: fixed;
+    top: 130px;
+    right: -5px;
+    background-color: #ffff;
+    box-sizing: border-box;
+    border: 1px solid #babec5;
+    display: none;
+}

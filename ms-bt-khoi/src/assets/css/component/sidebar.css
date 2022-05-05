@@ -1,0 +1,73 @@
+/* import các css của icon */
+
+/* Sidebar */
+.m-sidebar{
+    width: 178px;
+    background-color: #393a3d;
+    height: 100vh;
+    font-weight: bold;
+    color: #ffff;
+}
+
+/* Phần header của sidebar */
+.m-sidebar .m-sidebar-header{
+    box-sizing: border-box;
+    height: 48px;
+    width: 178px;
+    background-color:#38393d;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 24px 0px 24px 0px;
+}
+.m-sidebar-header .m-sidebar-header-left{
+    width: 40px;
+    height: 24px;
+    background-image: var(--bg-img);
+    background-position-x: -415px;
+    background-position-y: -86px;
+    margin-left: 10px;
+}
+.m-sidebar-header .m-sidebar-header-right{
+    display: flex;
+    height: 48px;
+    align-items: center;
+    background-image: url('../../img/Logo_Module_TiengViet_White.66947422.svg');
+    background-color:#38393d;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:150px 35px;
+    background-position: -10px 10px;
+}
+/* phần menu của sidebar */
+.m-sidebar-menu{
+    height: calc(100vh - 48px);
+    width: 100%;
+    padding-top: 14px;
+    box-sizing: border-box;
+    font-weight: 700px;
+}
+.m-sidebar-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    height: 42px;
+    box-sizing: border-box;
+}
+.m-sidebar-item:active{
+  background-color: #969393;
+}
+a.active .m-sidebar-item{
+    background-color: #969393;
+    /* border-left: 6px solid #2ca01c;
+    padding-left: 8px; */
+    box-sizing: border-box;
+    font-weight: 700;
+}
+.m-sidebar-item-icon{
+    width: 40px;
+    height: 40px;
+    padding: 0px 0px 0px 10px;
+}
+

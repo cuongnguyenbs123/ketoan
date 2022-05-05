@@ -1,0 +1,32 @@
+.m-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 0px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    bottom: 0px;
+    left: 0;
+    z-index: 1;
+    background-color: #ffff;
+}
+.m-footer .m-footer-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
+.m-footer-right .m-select-box{
+    margin-right: 20px;
+}
+.m-footer-right .m-select-box-button{
+   position: absolute;
+   left: 170px;
+}
+.m-footer-right .m-footer-pagination{
+    display: flex;
+    align-items: center;
+}

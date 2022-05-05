@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bd65c27b-d48c-4405-abec-bbda9e464fa9": {
+      "ProjectGuid": "bd65c27b-d48c-4405-abec-bbda9e464fa9",
+      "DisplayName": "MISA.DemoCSharp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
